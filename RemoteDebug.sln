@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebugApi", "RemoteDebugApi\RemoteDebugApi.csproj", "{CF7982BC-8F0D-4205-B752-369549CBA4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7982BC-8F0D-4205-B752-369549CBA4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7982BC-8F0D-4205-B752-369549CBA4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7982BC-8F0D-4205-B752-369549CBA4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7982BC-8F0D-4205-B752-369549CBA4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A5E7455-26D6-4CA0-A8E3-16356A8CDEA4}
+	EndGlobalSection
+EndGlobal
