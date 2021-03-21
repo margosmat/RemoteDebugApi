@@ -27,3 +27,11 @@ steps:
     msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Free Trial(b6a9579e-fe96-41d3-800d-7aac1926d71d)'
+    appType: 'webApp'
+    WebAppName: 'RemoteDebugApi'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
